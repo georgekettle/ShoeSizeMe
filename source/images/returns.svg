@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="255px" viewBox="0 0 255 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 34</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="110" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-34">
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="255" height="255"></rect>
+            <g id="Rectangle" transform="translate(73.000000, 73.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFC245" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <rect fill="#FF8E6D" fill-rule="nonzero" mask="url(#mask-2)" x="44" y="-8" width="23" height="40"></rect>
+            </g>
+            <g id="Group-31" transform="translate(144.477808, 138.096445) rotate(-33.000000) translate(-144.477808, -138.096445) translate(122.977808, 128.096445)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="3">
+                <g id="Group-30" transform="translate(0.000000, 0.000000)">
+                    <path d="M38.5096011,15.1350736 C36.5274608,6.46699716 28.7689545,0 19.5,-1.10844667e-12 C8.73044738,-1.10844667e-12 0,8.73044738 0,19.5" id="Oval"></path>
+                    <polyline id="Path-81" stroke-linejoin="round" transform="translate(37.377492, 13.259650) rotate(-6.000000) translate(-37.377492, -13.259650) " points="32.6188815 11.1413706 39.0811433 17.5025052 42.1361016 9.01679548"></polyline>
+                </g>
+            </g>
+            <g id="Group-31-Copy" transform="translate(153.619546, 158.410254) rotate(-210.000000) translate(-153.619546, -158.410254) translate(132.119546, 148.410254)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="3">
+                <g id="Group-30" transform="translate(0.000000, 0.000000)">
+                    <path d="M38.5096011,15.1350736 C36.5274608,6.46699716 28.7689545,0 19.5,-1.10844667e-12 C8.73044738,-1.10844667e-12 0,8.73044738 0,19.5" id="Oval"></path>
+                    <polyline id="Path-81" stroke-linejoin="round" transform="translate(37.377492, 13.259650) rotate(-6.000000) translate(-37.377492, -13.259650) " points="32.6188815 11.1413706 39.0811433 17.5025052 42.1361016 9.01679548"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

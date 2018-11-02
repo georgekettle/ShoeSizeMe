@@ -1,1 +1,58 @@
+// NAVBAR
+.navbar {
+  padding: 20px 40px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.navbar-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 0.8em;
+  margin-left: 20px;
+  &:hover {
+    background-color: $yellow;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    margin-left: 10px;
+    margin-right: -10px;
+  }
+}
+
+// LOGIN ICON
+.login-icon-link {
+  opacity: 1;
+  margin-left: 20px;
+}
+
+.nav-icon {
+  transform: translateY(1px);
+  filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.1));
+  transition: 0.1s ease-in;
+  &:hover {
+    transform: translateY(0px);
+    filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.2));
+  }
+}
+
+.menu-icon {
+  display: none;
+}
+
+// RESPONSIVE
+
+@media screen and (max-width: 950px) {
+  .nav-link {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}

@@ -1,5 +1,185 @@
 <div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
+  <div class="navbar">
+    <%= image_tag "logo.png", width: "150" %>
+    <div class="navbar-items">
+      <%= link_to 'Home', '#', class: "nav-link" %>
+      <%= link_to 'Brands', '#', class: "nav-link" %>
+      <%= link_to 'Retailers', '#', class: "nav-link" %>
+      <%= link_to 'Technology', '#', class: "nav-link" %>
+      <%= link_to 'Benefits', '#', class: "nav-link" %>
+      <%= link_to 'Customers', '#', class: "nav-link" %>
+      <%= link_to 'Contact', '#', class: "nav-link" %>
+      <% link_to '#', class: "login-icon-link" do %>
+        <%= image_tag 'images/menu-icon.svg', class: "nav-icon menu-icon" %>
+      <% end %>
+      <% link_to '#', class: "login-icon-link" do %>
+        <%= image_tag 'images/login-icon.svg', class: "nav-icon" %>
+      <% end %>
+    </div>
   </div>
+
+  <!-- HOME BANNER -->
+  <div class="home-banner">
+    <div class="home-banner-content">
+      <h1 class="home-banner-header">Control the anarchy<br>in online footwear sizing</h1>
+      <p class="home-banner-para">We empower your footwear e-commerce<br>to finally sell shoes online in the right size.</p>
+      <button class="home-banner-yellow-button">For Brands</button>
+      <button class="alternate-button home-banner-button">For Retailers</button>
+    </div>
+    <%= image_tag 'images/thinking-man.svg', class: "home-banner-image" %>
+  </div>
+
+  <!-- SECTION 1 -->
+  <div class="home-section">
+    <%= image_tag 'images/shopping-hassle.svg', class: "section-1-image" %>
+    <div class="home-section-1">
+      <h2 class="home-section-header">Shopping for shoes online<br>is a hassle</h2>
+      <p class="home-section-para">Each market has their own system. Every manufacturer uses a different scale. The chaos confuses your online shoppers and, worse, it also affects your bottom line. </p>
+      <% link_to '#', class: "home-section-1-link" do %>
+        <h4 class="purple-link">Discover how SizeAdvisor® benefits you</h4>
+        <%= image_tag 'images/purple-arrow-icon.svg', class: "purple-arrow-icon" %>
+      <% end %>
+    </div>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="home-section home-section-2">
+    <h2>Why use ShoeSize.me?</h2>
+    <div class="benefits-cards-container">
+      <div class="benefit-card">
+        <div class="circle-benefit">
+          <%= image_tag 'images/up-trend.svg', class: "circle-benefit-image" %>
+        </div>
+        <h4>Sell more shoes</h4>
+      </div>
+      <div class="benefit-card">
+        <div class="circle-benefit">
+          <%= image_tag 'images/double-order.svg', class: "circle-benefit-image" %>
+        </div>
+        <h4>Slash double-size orders</h4>
+      </div>
+      <div class="benefit-card">
+        <div class="circle-benefit">
+          <%= image_tag 'images/returns.svg', class: "circle-benefit-image" %>
+        </div>
+        <h4>Deal with fewer returns</h4>
+      </div>
+      <div class="benefit-card">
+        <div class="circle-benefit">
+          <%= image_tag 'images/smile.svg', class: "circle-benefit-image" %>
+        </div>
+        <h4>Avoid customer drop-out</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="home-section home-section-3">
+    <h2 class="header-white">What people are saying</h2>
+    <div class="carousel-container">
+      <div class="carousel my-carousel carousel--translate">
+        <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked"/>
+        <input class="carousel__activator" type="radio" name="carousel" id="G"/>
+        <input class="carousel__activator" type="radio" name="carousel" id="H"/>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="J"></label>
+          <label class="carousel__control carousel__control--forward" for="G"></label>
+        </div>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="F"></label>
+          <label class="carousel__control carousel__control--forward" for="H"></label>
+        </div>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="G"></label>
+          <label class="carousel__control carousel__control--forward" for="I"></label>
+        </div>
+        <div class="carousel__track">
+          <li class="carousel__slide">
+            <div class="carousel-slide-card">
+              <%= image_tag 'images/quote-icon.svg', class: "quote-icon" %>
+              <h4 class="quote-text">"Having a footwear focused technology really pays out on the bottom line…”</h4>
+              <h6 class="quote-name-title">Christoph Gawlik, Head of Online Marketing, Görtz</h6>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="carousel-slide-card">
+              <%= image_tag 'images/quote-icon.svg', class: "quote-icon" %>
+              <h4 class="quote-text">"The ShoeSize.Me Size Advisor gives our customers the necessary confidence in sizing to go through with the purchase…”</h4>
+              <h6 class="quote-name-title">Eric Braunshweiler, CEO, Glide'n Lock Footwear</h6>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="carousel-slide-card">
+              <%= image_tag 'images/quote-icon.svg', class: "quote-icon" %>
+              <h4 class="quote-text">"It helped prevent multiple size orders, and the subsequent hassle of having to return the wrong pair…”</h4>
+              <h6 class="quote-name-title">Sabine Schwärzler, Head of e-Commerce, Vögele Shoes</h6>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="home-section home-section-4">
+    <h2 class="header-white">The best in online footwear technology</h2>
+    <button class="alternate-button">See how it works</button>
+    <div class="technology-cards-container">
+      <div class="technology-card-container">
+        <div class="technology-card">
+          <%= image_tag 'images/shoe.svg', class: "tech-card-image" %>
+          <h4 class="technology-card-header">Exclusively focused on footwear</h4>
+        </div>
+        <p class="technology-card-para">We know shoe sizing. We do not match shoe models by size only. We look at how the models fit the customer taking into account not just length, but also width, foot arch and feet profile. We match the fit of two shoe models for each shopper.</p>
+      </div>
+      <div class="technology-card-container">
+        <div class="technology-card">
+          <%= image_tag 'images/graph.svg', class: "tech-card-image" %>
+          <h4 class="technology-card-header">The finest data granuality</h4>
+        </div>
+        <p class="technology-card-para">We treat each shoe model within a brand individually to help you give the most accurate recommendations. A pair of Kickers Hisplit is not the same as a pair of Kickers Hisuma in our book, even if they are both within the same category.</p>
+      </div>
+      <div class="technology-card-container">
+        <div class="technology-card">
+          <%= image_tag 'images/ai.svg', class: "tech-card-image" %>
+          <h4 class="technology-card-header">Artificial intelligence</h4>
+        </div>
+        <p class="technology-card-para">The self-learning technology improves its algorithm with every purchase registered. The earlier you implement it on your e-commerce the sooner it learns and returns accurate size advice for your footwear shoppers.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 5 -->
+  <div class="home-section home-section-5">
+    <h2>Ready to start selling more shoes?</h2>
+    <button>Get started</button>
+  </div>
+
+  <!-- FOOTER -->
+
+  <div class="footer-container">
+    <%= image_tag "logo.png", class: "footer-logo", width: "150" %>
+    <div class="footer-items">
+      <div class="footer-col">
+        <%= link_to 'Company', '#', class: "footer-link" %>
+        <%= link_to 'Customers', '#', class: "footer-link" %>
+        <%= link_to 'Success Stories', '#', class: "footer-link" %>
+        <%= link_to 'Contact Us', '#', class: "footer-link" %>
+      </div>
+      <div class="footer-col">
+        <%= link_to 'Brands', '#', class: "footer-link" %>
+        <%= link_to 'Retailers', '#', class: "footer-link" %>
+        <%= link_to 'Technology', '#', class: "footer-link" %>
+        <%= link_to 'Benefits', '#', class: "footer-link" %>
+      </div>
+      <div class="footer-col">
+        <%= link_to 'Careers', '#', class: "footer-link" %>
+        <%= link_to 'Terms Of Use', '#', class: "footer-link" %>
+        <%= link_to 'Privacy Policy', '#', class: "footer-link" %>
+        <%= link_to 'Site Notice', '#', class: "footer-link" %>
+      </div>
+    </div>
+    <h6 class="footer-copyright">© 2018 ShoeSize.Me AG Switzerland - All rights reserved</h6>
+  </div>
+
 </div>
