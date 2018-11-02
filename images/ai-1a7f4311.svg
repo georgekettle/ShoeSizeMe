@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="501px" height="286px" viewBox="0 0 501 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.8%" y="-104.8%" width="131.6%" height="309.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="25" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25" transform="translate(15.000000, 0.000000)" fill-rule="nonzero">
+            <path d="M321.844971,231 C369.030067,231 391.660194,130 475.030067,130 C354.29432,130 216.186686,29 168.969244,29 C121.751803,29 121.751803,130 -2.84217094e-13,130 C165.037882,130 274.659874,231 321.844971,231 Z" id="Oval-Copy-8" fill="#4D75FF"></path>
+            <path d="M257.686919,259.963319 C319.331314,259.963319 368.667628,129.463319 475,129.463319 C380.258387,129.463319 380.258387,48 334.484511,48 C288.710636,48 247.558303,129.463319 5.40012479e-13,129.463319 C151.76135,129.463319 196.042524,259.963319 257.686919,259.963319 Z" id="Oval-Copy-9" fill-opacity="0.8" fill="#DDE5FF"></path>
+            <path d="M294.260709,148.561021 C320.010076,148.561021 355.380195,129.02434 475,129.02434 C283.386393,129.02434 220.069196,77 185.883059,77 C151.696922,77 136.214324,129.02434 7.95807864e-13,129.02434 C160.845545,129.02434 268.511342,148.561021 294.260709,148.561021 Z" id="Oval-Copy-10" fill="#FFFFFF" filter="url(#filter-1)"></path>
+            <circle id="Oval-Copy-11" fill="#DDE5FF" cx="409.5" cy="10.5" r="10.5"></circle>
+            <circle id="Oval-Copy-12" fill="#DDE5FF" cx="73.5" cy="195.5" r="5.5"></circle>
+            <circle id="Oval-Copy-13" fill="#DDE5FF" cx="356" cy="273" r="13"></circle>
+        </g>
+    </g>
+</svg>

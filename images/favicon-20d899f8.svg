@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="24px" viewBox="0 0 13 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="77.0039535%" y1="113.574393%" x2="10.1262424%" y2="-21.5992728%" id="linearGradient-1">
+            <stop stop-color="#4D75FF" offset="0%"></stop>
+            <stop stop-color="#7AE2FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(-9.000000, -4.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="31" height="31"></rect>
+            <path d="M12.9489631,24.2613343 C14.9618817,22.6291938 17.2869064,21.1978531 19.9254278,19.9678873 C20.9890465,22.3908621 22.8903675,24.4508511 20.3987373,26.6122294 C18.3856496,28.3584932 15.3757976,27.1925572 12.9489631,24.2613343 Z M12.0527481,23.0569381 C10.6561984,20.9722078 9.5611396,18.2651252 9.14404641,15.2090088 C7.96846178,6.59529011 14.2466339,2.96514495 18.5840986,4.25267518 C22.9215633,5.54020541 20.1277956,12.8031964 19.4029057,16.757282 C19.2894593,17.3761026 19.3220716,17.9678661 19.4443203,18.5375816 C16.6556347,19.8239983 14.1912977,21.3302508 12.0527447,23.056933 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>
